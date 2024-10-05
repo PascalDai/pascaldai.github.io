@@ -1,38 +1,32 @@
-# For documentation on this file, see:
+# 有关此文件的文档，请参见：
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: 简介
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: 本网站用于记录Pascal Dai借助AI的开发经历
+      - title: 本网站源码
+        url: https://github.com/PascalDai/pascaldai.github.io
+      - title: "本网站借助<a href='https://www.cursor.com'>Cursor</a>进行开发"
 
-  - title: all posts
+  - title: 最新文章
     post_list:
+      category: daily
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: 查看更多文章...
       show_more_url: archive.html
 
-  - title: posts by category
+  - title: 示例文章
     post_list:
-      category: example2
+      category: example
       show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+      show_more_text: 查看更多文章...
+      show_more_url: example-archive.html
 
-  - title: rss
+  - title: RSS
     url: feed.xml
-  
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+
+  - title: 关于本网站
+    url: about.html
+
